@@ -44,8 +44,8 @@ export default function Navbar() {
 >
   <img
     src="/logo.svg"
-    alt="Noir Essence"
-    className="h-9 w-auto"
+    alt="Noir Essence logo"
+    className="h-10 w-auto"
   />
 
   <div className="font-serif text-2xl sm:text-3xl tracking-wide leading-none">
