@@ -38,21 +38,14 @@ export default function Navbar() {
         }`}
       >
         <nav className="max-w-7xl mx-auto px-5 sm:px-8 flex items-center justify-between">
-         <button
-  onClick={() => go('home')}
-  className="flex items-center gap-3"
->
-  <img
-    src="/logo.svg"
-    alt="Noir Essence Logo"
-    className="h-20 w-auto"
-  />
+          <button
+            onClick={() => go('home')}
+            className="font-serif text-2xl sm:text-3xl tracking-wide leading-none"
+          >
+            <span className="gold-text font-semibold">NOIR</span>{' '}
+            <span className="text-white/90 font-light">ESSENCE</span>
+          </button>
 
-  <div className="font-serif text-2xl sm:text-3xl tracking-wide leading-none">
-    <span className="gold-text font-semibold">NOIR</span>{' '}
-    <span className="text-white/90 font-light">ESSENCE</span>
-  </div>
-</button>
           <div className="hidden md:flex items-center gap-10">
             {navItems.map((item) => (
               <button
