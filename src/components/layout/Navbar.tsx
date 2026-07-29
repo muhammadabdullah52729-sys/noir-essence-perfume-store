@@ -43,8 +43,8 @@ export default function Navbar() {
   className="flex items-center gap-3"
 >
   <img
-    src="/logo.png"
-    alt="Noir Essence Logo"
+    src="/logo.svg"
+    alt="Noir Essence"
     className="h-10 w-auto"
   />
 
